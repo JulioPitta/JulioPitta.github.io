@@ -1,0 +1,126 @@
+      h1
+      {
+        text-shadow: 4px 4px 4px gray;
+      }
+       
+      p
+      {
+        text-shadow: 2px 2px 2px gray;
+        color:black;
+          font-family: 'Lucida Console';
+          font-size: 3;
+      }
+       
+      button
+      {
+          background-color: orange;
+          outline: none;
+          transition:all 0.3s;
+          border-width: 0px;
+          font-size: 18px;
+          width: 200px;
+          height: 50px;
+          box-shadow: 4px 4px 4px darkorange;
+          border-radius: 10px;
+      }
+       
+      button:hover
+      {
+          box-shadow: 2px 2px 2px orange;
+          color: white;
+          background-color: darkorange;
+      }
+       
+      button:active
+      {
+          color: grey;
+          background-color: black;
+          box-shadow: 0px 0px 0px darkorange;
+      }
+       
+      .mito
+      {
+          border-radius: 20px;
+          box-shadow: 4px 4px 4px gray;
+      }
+
+       @keyframes smile_anim
+       {
+            0%
+           {
+               transform: rotate(0deg);
+           }
+           51%
+           {
+                transform: rotate(180deg);
+           }
+           100%
+           {
+               transform: rotate(360deg);
+           }
+       }
+       
+      .smile
+       {
+           animation-name: smile_anim;
+           animation-duration: 5s;
+           animation-iteration-count: infinite;
+       }
+       
+       #welcome
+       {
+           animation-name: fundo;
+           animation-duration: 5s;
+           animation-iteration-count: infinite;
+       }
+       
+       body
+       {
+           background-color: yellow;
+       }
+       
+       @keyframes fundo
+       {
+           0%
+           {
+            color: aqua;
+           }
+           10%
+           {
+            color: orange;
+           }
+           20%
+           {
+            color: red;
+           }
+           30%
+           {
+            color: purple;
+           }
+           40%
+           {
+            color: brown;
+           }
+           50%
+           {
+            color: burlywood;
+           }
+           60%
+           {
+            color: lightblue;
+           }
+           70%
+           {
+            color: green;
+           }
+           80%
+           {
+            color: deeppink;
+           }
+           90%
+           {
+            color: darkblue;
+           }
+           100%
+           {
+            color: darkviolet;

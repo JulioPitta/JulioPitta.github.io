@@ -3,8 +3,9 @@
    <head>
       <meta charset="utf-8">
       <title>Página do Julio</title>
+       <link href="main.css" rel="stylesheet">
    </head>
-   <body bgcolor="yellow">
+   <body>
       <h1>
          <center>
             <font size="10" face="COURIER">
@@ -15,7 +16,7 @@
       <p>
       <center><font size="4" face="Lucida Console">Na minha página, você vai ver coisas sobre mim.</font></center>
       </p>
-      <center><img src="smile.png" height="160" width="160"></img></center>
+      <center><img class="smile" src="smile.png" height="160" width="160"></img></center>
       <br> 
       <p>>Meu nome é <strong>Julio,</strong> e eu gosto de HTML, computadores antigos e video games antigos. Eu nasci na cidade de Porto-Alegre, e atualmente estou morando na cidade de Parobé. Estudo no <em>Instituto Adventista Cruzeiro do Sul</em> (<em>IACS</em>).</p>
       <p>>Eu moro na rua 18 de março e gosto muito de estourar rojões e soltar foguetes. Também gosto de jogar Minecraft com o meu irmão e de programar com o meu primo Isaque.</p>
@@ -32,58 +33,5 @@
     </center>
     <br/>
    </body>
-   <!---------------------------------------------------------------------------------------------------------------------------------------->
-   <style>
-      h1
-      {
-        text-shadow: 4px 4px 4px gray;
-      }
-       
-      p
-      {
-        text-shadow: 2px 2px 2px gray;
-        color:black;
-          font-family: 'Lucida Console';
-          font-size: 3;
-      }
-       
-      button
-      {
-          background-color: orange;
-          outline: none;
-          transition:all 0.3s;
-          border-width: 0px;
-          font-size: 18px;
-          width: 200px;
-          height: 50px;
-          box-shadow: 4px 4px 4px darkorange;
-          border-radius: 20px;
-      }
-       
-      button:hover
-      {
-          box-shadow: 2px 2px 2px orange;
-          color: white;
-          background-color: darkorange;
-      }
-       
-      button:active
-      {
-          color: grey;
-          background-color: black;
-          box-shadow: 0px 0px 0px darkorange;
-      }
-       
-      .mito
-      {
-          border-radius: 20px;
-          box-shadow: 4px 4px 4px gray;
-      }
-   </style>
-
-   <script>
-      var name = prompt("Qual é seu nome? (Letra maiúscula em início de nome!)");
-      var namechip = document.getElementById("welcome");
-      namechip.innerText = "Bem-vindo à minha página " + name + "!";
-   </script>
+   <script src="scripts.js"></script>
 </html>
